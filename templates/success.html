@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/site.webmanifest">
+
+    
+      <title>Pacific Finance | Update Profile Picture</title>
+    
+
+    <!--CSS and font awesome-->
+    <link href="/static/css/plugins.css" rel="stylesheet" />
+    <link href="/static/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+
+    <div class="body-inner">
+        <header
+        id="header"
+        data-transparent="false"
+        data-fullwidth="true"
+        class="dark submenu-light"
+      >
+        <div class="header-inner">
+          <div class="container">
+            <div id="logo">
+              <a href="/">
+                <span class="logo-default">PAN Validator</span>
+                <span class="logo-dark">PAN Card Validator</span>
+              </a>
+            </div>
+
+
+            <div id="mainMenu-trigger">
+              <a class="lines-button x"><span class="lines"></span></a>
+            </div>
+
+            <div id="mainMenu">
+              <div class="container">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <section class="fullscreen" data-bg-parallax="/static/images/parallax/5.jpg">
+        <div class="container">
+            <div>
+                <div class="row">
+                    <div class="col-lg-5 center p-50 background-white b-r-6">
+                        <h3>Verify Pan Card</h3>
+                        {%if stat%}
+                        <p>{{stat}}</p>
+                        {%endif%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        <footer id="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="widget">
+              <div class="widget-title">Online pan card Validator</div>
+              <p class="mb-5">
+                All rights reserved. Copyright © 2022. Pacific Finance.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="widget">
+                  <div class="widget-title">Discover</div>
+                  <ul class="list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <div class="col-lg-6">
+                <div class="widget">
+                  <div class="widget-title">Support</div>
+                  <ul class="list">
+                    <li><a href="/about-us.html">About</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="/contact-us.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-content">
+      <div class="container">
+        <div class="copyright-text text-center">
+          ©  2022 Pacific Finance. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+    </div> -->
+
+    <a id="scrollTop"
+      ><i class="fa fa-chevron-up"></i> <i class="fa fa-chevron-up"></i></a>
+
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/plugins.js"></script>
+
+    <script src="/static/js/functions.js"></script>
+
+    <!--Start of Tawk.to Script->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/62f24a9c54f06e12d88db5ed/1ga176t3d';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!-End of Tawk.to Script-->
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
